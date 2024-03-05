@@ -8,7 +8,7 @@ body {
 }
 
 .title {
-    padding-left: 10rem;
+    padding-left: 13rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
     border-style: none;
@@ -18,7 +18,7 @@ body {
 }
 
 .top-nav {
-    padding-left: 10rem;
+    padding-left: 13rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin: 0rem;
@@ -46,15 +46,15 @@ h2 {
     font-size: 2rem;
     font-style: italic;
     margin-top: 0rem;
-    margin-right: 53rem;
+    margin-right: 50rem;
 }
 
 .main-box {
     width: 75%;
     border-style: none;
     background: none;
-    padding-left: 10rem;
-    padding-right: 2rem;
+    padding-left: 13rem;
+    padding-right: 1rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
@@ -64,7 +64,7 @@ h2 {
     border-style: none;
     background: none;
     padding-left: 3rem;
-    padding-right: 6rem; 
+    padding-right: 10rem; 
     padding-top: 3rem;
     padding-bottom: 3rem; 
 }
@@ -93,6 +93,11 @@ figure {margin-left: 0;}
 
 .quote {
     font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.quote-spacing {
     line-height: 2rem;
 }
 
