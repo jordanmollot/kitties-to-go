@@ -1,4 +1,124 @@
+html {
+    font-size: 16px;
+}
 
+body {
+    margin: 0px;
+}
+
+.title {
+    padding-left: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-style: none;
+    margin: 0rem;
+    color: white;
+    background-color: rgb(94, 153, 181);
+}
+
+.top-nav {
+    padding-left: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 0rem;
+    color: rgb(61, 61, 61);
+    background-color: rgb(234, 234, 234);
+}
+
+.nav-links {
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: italic;
+    margin-top: 0rem;
+    margin-right: 53rem;
+}
+
+.main-box {
+    width: 75%;
+    border-style: none;
+    background: none;
+    padding-left: 10rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+.aside-box {
+    width: 25%;
+    border-style: none;
+    background: none;
+    padding-left: 3rem;
+    padding-right: 6rem; 
+    padding-top: 3rem;
+    padding-bottom: 3rem; 
+}
+
+.main-aside-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+figure {margin-left: 0;}
+
+.links {
+    color: rgb(94, 153, 181);
+    text-decoration: none;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+p.blue {
+    color: rgb(94, 153, 181);
+    margin-bottom: 0rem;
+}
+
+p.italic {
+    font-style: italic;
+    margin-top: 0rem;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+.footer {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footer-links {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+}
+
+* {
+    font-family: sans-serif;
+}
 
 
 /*
