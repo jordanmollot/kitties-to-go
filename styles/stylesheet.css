@@ -1,6 +1,9 @@
+/*    color: #5e99b5;*/
+
+
 html {
     font-size: 16px;
-    color: rgb(61, 61, 61)
+    color: #3d3d3d;
 }
 
 body {
@@ -15,8 +18,8 @@ body {
     padding-bottom: 3rem;
     border-style: none;
     margin: 0rem;
-    color: white;
-    background-color: rgb(94, 153, 181);
+    color: #FFFFFF;
+    background-color: #457B96;
 }
 
 .top-nav {
@@ -24,12 +27,12 @@ body {
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin: 0rem;
-    color: rgb(61, 61, 61);
-    background-color: rgb(234, 234, 234);
+    color: #3d3d3d;
+    background-color: #eaeaea;
 }
 
 .nav-links {
-    color: rgb(61, 61, 61);
+    color: #3d3d3d;
     text-decoration: none;
     font-weight: bold;
 }
@@ -82,7 +85,7 @@ h2 {
 figure {margin-left: 0;}
 
 .links {
-    color: rgb(94, 153, 181);
+    color: #457B96;
     text-decoration: none;
 }
 
@@ -91,7 +94,7 @@ figure {margin-left: 0;}
 }
 
 .blue {
-    color: rgb(94, 153, 181);
+    color: #457B96;
     margin-bottom: 0rem;
 }
 
@@ -119,7 +122,7 @@ h3 {
 }
 
 h4 {
-    color: rgb(94, 153, 181);
+    color: #457B96;
 }
 
 /*Kitty Profiles*/
@@ -148,7 +151,7 @@ h4 {
 
 .footer {
     background-color: #3d3d3d;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -158,7 +161,7 @@ h4 {
 }
 
 .footer-links {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     font-weight: 700;
     font-size: 14px;
