@@ -16,7 +16,8 @@ body {
     border-style: none;
     margin: 0rem;
     color: #FFFFFF;
-    background-color: #457B96;
+    background: linear-gradient(#457B96, 75%, #eaeaea);
+    /*background: linear-gradient(#eaeaea, 30%, #457B96);*/
 }
 
 .top-nav {
