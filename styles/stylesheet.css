@@ -150,16 +150,26 @@ h4 {
 .profile {
     border-style: solid;
     border-width: 1px;
+    max-width: 100%;
+    height: auto;
 }
 
 /*Footer*/
 
-.footer {
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
     background-color: #3d3d3d;
     background-image: url('../image/footer.jpg');
     background-size: cover;
+}
+
+.footer-text {
     color: #FFFFFF;
     text-align: center;
+    width: auto;
     padding-top: 5rem;
     padding-bottom: 5rem;
     padding-left: 30rem;
