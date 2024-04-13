@@ -1,3 +1,5 @@
+/*TEST*/
+
 html {
     font-size: 16px;
     color: #3d3d3d;
@@ -57,7 +59,7 @@ h2 {
 /*About*/
 
 .main-box {
-    width: 75%;
+    width:75%;
     border-style: none;
     background: none;
     padding-left: 13rem;
@@ -71,7 +73,7 @@ h2 {
     border-style: none;
     background: none;
     padding-left: 3rem;
-    padding-right: 10rem; 
+    padding-right: 5rem;
     padding-top: 3rem;
     padding-bottom: 3rem; 
 }
@@ -125,6 +127,13 @@ h4 {
     color: #457B96;
 }
 
+.sidebar-img {
+    border-style: solid;
+    border-width: 1px;
+    max-width: 100%;
+    height: auto;
+}
+
 /*Kitty Profiles*/
 
 .page-title {
@@ -133,7 +142,6 @@ h4 {
 }
 
 .profiles-box {
-    width: 75%;
     border-style: none;
     background: none;
     padding-left: 13rem;
@@ -156,25 +164,17 @@ h4 {
 
 /*Footer*/
 
-.footer-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
+footer {
     background-color: #3d3d3d;
     background-image: url('../image/footer.jpg');
     background-size: cover;
-}
-
-.footer-text {
     color: #FFFFFF;
-    text-align: center;
-    width: auto;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    padding-left: 30rem;
-    padding-right: 30rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     line-height: 1.5rem;
+    text-align: center;
 }
 
 .footer-links {
@@ -186,6 +186,11 @@ h4 {
 
 .footer-links:hover {
     text-decoration: underline;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto
 }
 
 * {
