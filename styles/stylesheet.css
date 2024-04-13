@@ -78,6 +78,18 @@ h2 {
     padding-bottom: 3rem; 
 }
 
+@media screen and (max-width: 768px) {
+    .aside-box {
+     display: none;
+   }
+   .main-box {
+    width: 100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+   }
+}
+
+
 .main-aside-container {
     display: flex;
     flex-direction: row;
@@ -133,6 +145,7 @@ h4 {
     max-width: 100%;
     height: auto;
 }
+
 
 /*Kitty Profiles*/
 
