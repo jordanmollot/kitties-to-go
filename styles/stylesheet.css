@@ -43,6 +43,10 @@ body {
     text-decoration: underline;
 }
 
+#first-nav {
+    padding-left: -1rem;
+}
+
 h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
@@ -210,8 +214,9 @@ footer {
    }
 
    .profiles-box {
+    width: 100%;
     padding-left: 5rem;
-    padding-right: 5rem;
+    padding-right: 3rem;
    }
 
    .page-title {
